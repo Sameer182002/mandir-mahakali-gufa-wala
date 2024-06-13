@@ -1,0 +1,12 @@
+.mainWrapper{
+    background: rgb(166,123,91);
+    background: linear-gradient(0deg, rgba(166,123,91,1) 0%, rgba(236,177,118,1) 43%, rgba(254,216,177,1) 100%);
+    padding-top: 1rem;
+    height: 100vh;
+}
+@media screen and (min-width: 1024px) {
+    .mainWrapper{
+        padding-top: 2rem;
+        height: 100vh;
+    }
+}

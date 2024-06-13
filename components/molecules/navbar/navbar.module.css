@@ -1,0 +1,22 @@
+.itemWrapper{
+    display: flex;
+    border: 1px solid var(--global-primary-color-one);
+    width: fit-content;
+    gap: 2rem;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+}
+.itemWrapper>p{
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--global-primary-color-one);
+}
+
+
+@media screen and (min-width:1024px) {
+    .mainWrapper{
+        display: flex;
+        justify-content: center;
+    }
+}
