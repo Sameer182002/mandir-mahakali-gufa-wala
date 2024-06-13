@@ -7,7 +7,7 @@ export default function HeroSection(){
     return(
         <div className={styles.mainWrapper}>
             <div className={styles.leftSide}>
-                {/* <h1>मंदिर श्री महाकाली गुफा वाला</h1> */}
+                <h1>मंदिर श्री महाकाली गुफा वाला</h1>
             </div>
             <div className={styles.rightSide}>
                 <div className={styles.imageFrame}>
@@ -15,6 +15,8 @@ export default function HeroSection(){
                         <Image
                             src={temple}
                             className={styles.image}
+                            alt="temple"
+                            placeholder="blur"
                         />
                     </picture>
                 </div>

@@ -20,8 +20,8 @@ export default function Sidebar(){
     return (
         <div>
             {!isSidebarOpen && 
-                <div className={styles.hamburerIcon} onClick={handleClick}>
-                    <p>&#8801;</p>
+                <div className={styles.hamburerIcon}>
+                    <p onClick={handleClick}>&#8801;</p>
                 </div>
             }
             
